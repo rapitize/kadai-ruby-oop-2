@@ -6,10 +6,6 @@ class Mentor
     self.name = name
   end
 
-  def word
-
-  end
-
   def job
     puts "#{self.name}です。私は現役のITプロフェッショナルです。"
   end
