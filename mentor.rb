@@ -17,7 +17,7 @@ end
 
 
 class RailsMentor < Mentor
-  
+
   def initialize(name)
     self.name = name
   end
