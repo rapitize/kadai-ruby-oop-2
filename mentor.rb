@@ -7,11 +7,11 @@ class Mentor
   end
 
   def word
-    '私は現役のITプロフェッショナルです。'
+
   end
 
-  def job()
-    puts "#{self.name}です。#{self.word}"
+  def job
+    puts "#{self.name}です。私は現役のITプロフェッショナルです。"
   end
 end
 
@@ -22,12 +22,8 @@ class RailsMentor < Mentor
     self.name = name
   end
   
-  def word
-    '私はRubyとRailsでWebアプリケーションを作ります。'
-  end
-  
   def job
-    super
+    puts "#{self.name}です。私はRubyとRailsでWebアプリケーションを作ります。"
   end
 end
   
